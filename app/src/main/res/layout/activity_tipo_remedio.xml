@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TipoRemedio"
+    android:background="#40E0D0">
+
+    <Button
+        android:id="@+id/pressao_alta"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_marginBottom="40dp"
+        android:onClick="pressaoAlta"
+        android:text="@string/pressãoAlta"
+        app:layout_constraintBottom_toTopOf="@+id/diabetes"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        android:width="250dp"
+        android:backgroundTint="#B22222"
+        android:textColor="#FFFFFFFF"/>
+
+    <Button
+        android:id="@+id/diabetes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="40dp"
+        android:onClick="diabetes"
+        android:text="@string/diabetes"
+        app:layout_constraintBottom_toTopOf="@+id/analgesico_anti"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:width="250dp"
+        android:backgroundTint="#B22222"
+        android:textColor="#FFFFFFFF"/>
+
+    <Button
+        android:id="@+id/analgesico_anti"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="40dp"
+        android:onClick="analgesico"
+        android:text="@string/analgesico"
+        app:layout_constraintBottom_toTopOf="@+id/vitaminas"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        android:width="250dp"
+        android:backgroundTint="#B22222"
+        android:textColor="#FFFFFFFF"/>
+
+    <Button
+        android:id="@+id/vitaminas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="40dp"
+        android:onClick="vitaminas"
+        android:text="@string/vitaminas"
+        app:layout_constraintBottom_toTopOf="@+id/primeiros_socorros"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:width="250dp"
+        android:backgroundTint="#B22222"
+        android:textColor="#FFFFFFFF"/>
+
+    <Button
+        android:id="@+id/primeiros_socorros"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="90dp"
+        android:onClick="primeirosSocorros"
+        android:text="@string/primeirosSocorros"
+        app:layout_constraintBottom_toTopOf="@+id/voltar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:width="250dp"
+        android:backgroundTint="#B22222"
+        android:textColor="#FFFFFFFF"/>
+
+    <Button
+        android:id="@+id/voltar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        android:onClick="telaInicial"
+        android:text="@string/voltar"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:backgroundTint="#B22222"
+        android:textColor="#FFFFFFFF"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/mozao/AndroidStudioProjects/Projeto/app/src/main/res/layout/activity_analgesicos.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/mozao/AndroidStudioProjects/Projeto/app/src/main/res/layout/activity_bulario_eletronico.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/mozao/AndroidStudioProjects/Projeto/app/src/main/res/layout/activity_cuidados_gerais.xml" value="0.38699444885011897" />
+        <entry key="..\:/Users/mozao/AndroidStudioProjects/Projeto/app/src/main/res/layout/activity_descarte_med.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/mozao/AndroidStudioProjects/Projeto/app/src/main/res/layout/activity_diabetes.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/mozao/AndroidStudioProjects/Projeto/app/src/main/res/layout/activity_info_geral.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/mozao/AndroidStudioProjects/Projeto/app/src/main/res/layout/activity_informacoes.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/mozao/AndroidStudioProjects/Projeto/app/src/main/res/layout/activity_main.xml" value="0.4" />
+        <entry key="..\:/Users/mozao/AndroidStudioProjects/Projeto/app/src/main/res/layout/activity_med_genericos.xml" value="0.35007458975634015" />
+        <entry key="..\:/Users/mozao/AndroidStudioProjects/Projeto/app/src/main/res/layout/activity_pressao_alta.xml" value="0.391705069124424" />
+        <entry key="..\:/Users/mozao/AndroidStudioProjects/Projeto/app/src/main/res/layout/activity_primeiros_socorros.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/mozao/AndroidStudioProjects/Projeto/app/src/main/res/layout/activity_sobre.xml" value="0.264" />
+        <entry key="..\:/Users/mozao/AndroidStudioProjects/Projeto/app/src/main/res/layout/activity_tipo_remedio.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/mozao/AndroidStudioProjects/Projeto/app/src/main/res/layout/activity_vitaminas.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/mozao/AndroidStudioProjects/Projeto/app/src/main/res/layout/diabetes.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/mozao/AndroidStudioProjects/Projeto/app/src/main/res/layout/info_geral.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/mozao/AndroidStudioProjects/Projeto/app/src/main/res/layout/pressao_alta.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/mozao/AndroidStudioProjects/Projeto/app/src/main/res/layout/sobre.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/mozao/AndroidStudioProjects/Projeto/app/src/main/res/layout/teste.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/mozao/AndroidStudioProjects/Projeto/app/src/main/res/layout/tipos_de_remedios.xml" value="0.36666666666666664" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
