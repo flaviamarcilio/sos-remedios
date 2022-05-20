@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".DescarteMed"
-    android:background="#40E0D0">
+    android:background="#21B1B2">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -16,7 +16,7 @@
             android:layout_width="300dp"
             android:layout_height="200dp"
             android:layout_marginStart="50dp"
-            android:layout_marginTop="20dp"
+            android:layout_marginTop="30dp"
             android:src="@drawable/descarte"/>
 
         <TextView
@@ -25,9 +25,10 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="20dp"
             android:layout_marginEnd="20dp"
-            android:layout_marginTop="10dp"
+            android:layout_marginTop="30dp"
             android:justificationMode="inter_word"
             android:textColor="#FF000000"
+            android:textSize="20sp"
             android:text="@string/descarteMed" />
 
         <TextView
@@ -38,7 +39,7 @@
             android:layout_marginTop="20dp"
             android:textColor="#FF000000"
             android:text="@string/ondeDescartar"
-            android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+            android:textSize="30sp"/>
 
         <TextView
             android:id="@+id/textView3"
@@ -49,6 +50,7 @@
             android:layout_marginTop="10dp"
             android:justificationMode="inter_word"
             android:textColor="#FF000000"
+            android:textSize="20sp"
             android:text="@string/textoDescarte" />
 
         <TextView
@@ -59,7 +61,8 @@
             android:layout_marginEnd="20dp"
             android:layout_marginTop="20dp"
             android:text="@string/fonteDescarte"
-            android:textColorLink="#F8F8FF"/>
+            android:textColorLink="#0000FF"
+            android:textSize="20sp"/>
 
         <TextView
             android:id="@+id/textFonteDescarte2"
@@ -69,7 +72,8 @@
             android:layout_marginEnd="20dp"
             android:layout_marginTop="20dp"
             android:text="@string/fonteDescarte2"
-            android:textColorLink="#F8F8FF"/>
+            android:textColorLink="#0000FF"
+            android:textSize="20sp"/>
 
         <Button
             android:id="@+id/button"
@@ -77,7 +81,10 @@
             android:layout_height="wrap_content"
             android:text="@string/voltar"
             android:onClick="voltarInfo"
-            android:layout_marginBottom="30dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="40dp"
+            android:height="60dp"
+            android:textSize="16sp"
             android:layout_gravity="center_horizontal"
             android:backgroundTint="#B22222"
             android:textColor="#FFFFFFFF"/>

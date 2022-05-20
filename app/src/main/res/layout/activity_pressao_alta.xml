@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".PressaoAlta"
-    android:background="#40E0D0">
+    android:background="#21B1B2">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -21,7 +21,7 @@
             android:layout_marginTop="20dp"
             android:text="@string/principaisSintomas"
             android:textColor="#FF000000"
-            android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+            android:textSize="30sp"/>
 
         <TextView
             android:id="@+id/textView2"
@@ -32,6 +32,7 @@
             android:layout_marginTop="10dp"
             android:justificationMode="inter_word"
             android:textColor="#FF000000"
+            android:textSize="20sp"
             android:text="@string/textoSintomaPressao" />
 
         <TextView
@@ -42,7 +43,7 @@
             android:layout_marginTop="20dp"
             android:text="@string/principaisMedicamentos"
             android:textColor="#FF000000"
-            android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+            android:textSize="30sp"/>
 
         <TextView
             android:id="@+id/textView4"
@@ -53,6 +54,7 @@
             android:layout_marginTop="10dp"
             android:justificationMode="inter_word"
             android:textColor="#FF000000"
+            android:textSize="20sp"
             android:text="@string/textoMedicamentoPressao" />
 
         <TextView
@@ -63,7 +65,7 @@
             android:layout_marginTop="20dp"
             android:text="@string/fatoresDeRisco"
             android:textColor="#FF000000"
-            android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+            android:textSize="30sp"/>
 
         <TextView
             android:id="@+id/textView6"
@@ -74,6 +76,7 @@
             android:layout_marginTop="10dp"
             android:justificationMode="inter_word"
             android:textColor="#FF000000"
+            android:textSize="20sp"
             android:text="@string/textoFatoresDeRisco" />
 
         <TextView
@@ -84,7 +87,8 @@
             android:layout_marginEnd="20dp"
             android:layout_marginTop="20dp"
             android:text="@string/fontePressaoAlta"
-            android:textColorLink="#F8F8FF"/>
+            android:textColorLink="#0000FF"
+            android:textSize="20sp"/>
 
         <Button
             android:id="@+id/voltar_tipo_remedio"
@@ -92,7 +96,10 @@
             android:layout_height="wrap_content"
             android:onClick="voltaTipoRemedio"
             android:text="@string/voltar"
-            android:layout_marginBottom="30dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="40dp"
+            android:height="60dp"
+            android:textSize="16sp"
             android:layout_gravity="center_horizontal"
             tools:ignore="OnClick"
             android:backgroundTint="#B22222"

@@ -11,38 +11,43 @@
     <string name="generico">Medicamentos Genéricos</string>
     <string name="cuidados">Cuidados Gerais</string>
     <string name="info">Informações Gerais</string>
+<!--    <string name="nomeApp">SOS remédios</string>-->
+
+<!--Cuidados Gerais-->
     <string name="alimento">Alimente-se bem</string>
     <string name="textoAlimento">Comer é fundamental para manter a energia e saúde do corpo, no entanto, a ingestão de bons alimentos faz toda a diferença. O consumo diário desses alimentos atuam de forma importante para manter o bom funcionamento do organismo. As verduras, os legumes, os grãos, as proteínas e as frutas também devem fazer parte das refeições. Consumir moderadamente todos os alimentos pode fazer a diferença entre ter uma vida saudável ou não.</string>
     <string name="agua">Beba Água </string>
     <string name="textoAgua">A água faz muito bem ao organismo, ela atua em todas as funções do corpo (circulação, digestão, excreção) e além de hidratá-lo permite também que a temperatura seja mantida. É fundamental que adultos bebam pelo menos 2 litros da água por dia para garantir um bom funcionamento de seu organismo.</string>
     <string name="atividadeFisica">Pratique Atividades Físicas</string>
     <string name="textoAtFis">É preciso incluir os exercícios físicos nos hábitos diários de saúde, mesmo que você não goste muito de praticá-los. Encontre uma prática que mais lhe agrada e faça isso pensando em sua saúde e bem-estar ao longo dos próximos anos. Procure auxílio de especialistas antes de praticar exercícios, desta forma você estará amparado por profissionais que lhe indicarão como começar e quais os exercícios que serão mais indicados para você. </string>
-    <string name="nomeApp">SOS remédios</string>
     <string name="descanse">Descanse</string>
     <string name="textoDescanso">"Ter momentos de relaxamento e um bom período de sono também auxilia no bom andamento da saúde, por isso, planeje tempo para eles e procure respeitar o seu tempo de sono para garantir boas horas de descanso. Separe pelo menos algum momento na semana para momentos de lazer, afinal, eles são importantes para manter sua mente longe do stress diário e lhe darão mais ânimo para enfrentar uma nova jornada. "</string>
     <string name="examesRotina">Realize exames de rotina</string>
     <string name="textoExames">Defina um mês em sua agenda, e a cada ano, naquele mês definido, faça uma visita a seu especialista para um controle de sua saúde. Dessa forma você poderá também prevenir o aparecimento de algumas doenças. </string>
-    <string name="fonteInfo"><a href="https://www.sindern.com.br/cuidados-basicos-para-a-boa-saude-e-qualidade-de-vida">https://www.sindern.com.br/cuidados-basicos</a></string>
+
+<!--Pressão Alta-->
     <string name="principaisSintomas">Principais Sintomas</string>
     <string name="textoSintomaPressao">A pressão alta faz com que o coração tenha um esforço maior do que o normal para que o sangue seja distribuído corretamente no corpo. É considerada um dos mais importantes fatores de risco para o desenvolvimento de doenças cardiovasculares, cerebrovasculares e renais, responsável por pelo menos 40% das mortes por doença arterial coronariana, como infarto cardíaco e, em combinação com o diabetes, 50% dos casos de insuficiência renal terminal. Entre os principais sintomas da Pressão Alta podemos citar fraqueza, dores no peito, dor de cabeça, sangramento nasal, visão borrada, tontura e zumbidos no ouvido. </string>
     <string name="principaisMedicamentos">Medicamentos Utilizados</string>
     <string name="textoMedicamentoPressao">Os medicamentos utilizados no combate à Pressão Alta incluem: Atenolol, Captopril, Enalapril, Hidroclorotiazida, Losartana e Propranolol</string>
     <string name="fatoresDeRisco">Fatores de Risco</string>
     <string name="textoFatoresDeRisco">É uma doença que, em 90% dos casos, é herdada dos pais. Porém, há vários fatores que influenciam nos níveis da pressão arterial. Entre eles, podemos citar: Fumo, Consumo de Bebidas Alcoólicas, Obesidade, Estresse, Elevado consumo de sal, Níveis altos de Colesterol, Sedentarismo. O sedentarismo contribui com a epidemia crescente de obesidade e o aumento de doenças como a Pressão Alta. Ele aumenta o risco de hipertensão em até 30% quando comparado com indivíduos ativos. </string>
-    <string name="fontePressaoAlta"><a href="https://eurofarma.com.br/artigos/sintomas-da-pressao-alta#:~:text=Os%20sintomas%20da%20hipertens%C3%A3o%20costumam,emba%C3%A7ada%20e%20sangramento%20nasal%C2%B9">https://eurofarma.com.br/artigos/sintomas-da-pressao-alta</a></string>
+
+<!--Diabetes-->
     <string name="textoDiabetes">Diabetes Mellitus (DM) é uma síndrome metabólica de origem múltipla, decorrente da falta de insulina e/ou da incapacidade de a insulina exercer adequadamente seus efeitos. A insulina é produzida pelo pâncreas e é responsável pela manutenção do metabolismo da glicose e a falta desse hormônio provoca déficit na metabolização da glicose e, conseqüentemente, diabetes. Caracteriza-se por altas taxas de açúcar no sangue (hiperglicemia) de forma permanente.</string>
     <string name="tipoUm">Diabetes Tipo 1</string>
     <string name="tipoDois">DIabetes Tipo 2</string>
     <string name="textoTipoUm">É causada pela destruição das células produtoras de insulina, em decorrência de defeito do sistema imunológico em que os anticorpos atacam as células que produzem a insulina. Ocorre em cerca de 5 a 10% dos diabéticos. Entre os principais sintomas da doença podemos citar vontade de urinar diversas vezes, fome freqüente, sede constante, perda de peso, fraqueza, fadiga, nervosismo, mudanças de humor, náusea, vômito. Seu tratamento é feito através do uso diário de insulina. </string>
     <string name="textoTipoDois">Resulta da resistência à insulina e de deficiência na secreção de insulina. Ocorre em cerca de 90% dos diabéticos. Entre os principais sintomas estão infecções freqüentes, alteração visual (visão embaçada), dificuldade na cicatrização de feridas, formigamento nos pés,  e o aparecimento de furúnculos. Seu tratamento é feito através de medicamentos, sendo os principais Metformina, Glimepirida, Gliclazida, e em alguns casos, também a a insulina.</string>
-    <string name="textoFonte"><a href="https://bvsms.saude.gov.br/diabetes/">https://bvsms.saude.gov.br/diabetes/</a></string>
+
+<!--Analgésico-->
     <string name="principaisDiferencas">A forma mais simples de explicar a diferença entre um remédio analgésico e um anti-inflamatório é que o primeiro atua diretamente no combate à dor. Já o segundo serve para eliminar uma inflamação e, consequentemente, a dor causada por ela. Como o anti-inflamatório acaba com a causa da dor, ele vai indiretamente solucionar os dois problemas de uma só vez. Enquanto isso, o analgésico até elimina a dor, mas o que está provocando ela continua ali, o que significa que, ao passar o efeito do medicamento, ela pode retornar. </string>
     <string name="tipoAnalgesico">Analgésicos</string>
     <string name="textoAnalgesico">São medicamentos que atuam no tratamento de todos os tipos de dores físicas (dor de cabeça, dores musculares, cólicas, dor de dente, por exemplo). Quando ingeridos em grande quantidade, podem causar danos ao estômago, fígado ou rins. No caso de medicamentos opióides, ainda existe o risco de dependência. </string>
     <string name="tipoAnti">Anti-inflamatório</string>
     <string name="textoAnti">Existem 2 tipos de anti-inflamatórios: os esteroides e os não esteroides. Os esteroides geralmente são recomendados para tratar asma e doenças inflamatórias autoimunes, como o Lúpus. Já os não esteroides costumam ser usados para tratar artrite reumatoide, contusões, traumas, e também dores e inflamações comuns, como as de garganta. O uso prolongado pode causar problemas como osteoporose, úlceras, retenção de líquidos e aumento da suscetibilidade a infecções. </string>
-    <string name="fontesAnti"><a href="https://drauziovarella.uol.com.br/infograficos/principais-diferencas-entre-analgesicos-e-anti-inflamatorios-infografico/">https://drauziovarella.uol.com.br/diferencas-entre-analgesicos-e-anti-inflamatorios/</a></string>
-    <string name="fontesAnti2"><a href="https://www.strepsils.com.br/dicas-strepsils-blog/analgeacutesico-e-anti-inflamatoacuterio-afinal-qual-eacute-a-diferenccedila/#:~:text=Qual%20%C3%A9%20a%20diferen%C3%A7a%20entre,a%20dor%20causada%20por%20ela">https://www.strepsils.com.br/analgesico-e-anti-inflamatorio-qual-e-a-diferenca</a></string>
+
+<!--Vitaminas-->
     <string name="textoVitaminas">As vitaminas são substâncias orgânicas que o nosso corpo necessita em pequenas quantidades, que são indispensáveis ao funcionamento do organismo, já que são essenciais para manter o sistema imunológico saudável, garantir o funcionamento correto do metabolismo e promover o crescimento. Devido à sua importância na regulação de processos metabólicos, quando são ingeridas em quantidade insuficiente ou quando o organismo apresenta alguma carência vitamínica, isso pode trazer sérios riscos para a saúde, como problemas de visão, musculares ou neurológicos. Como o organismo é incapaz de sintetizar vitaminas, é importante que sejam ingeridas através da alimentação, sendo muito importante fazer uma dieta equilibrada, rica em legumes e fontes de proteína variadas. Além da ingestão de alimentos ricos em vitaminas, também se pode ingerir suplementos alimentares que geralmente contêm as doses diárias recomendadas de vitaminas e minerais essenciais ao bom funcionamento do organismo, sendo importante que sejam indicadas pelo nutricionista. </string>
     <string name="vitA">Vitamina A</string>
     <string name="textoVitA"> Tem como principal função manter a visão saudável. Sua deficiência pode causar Cegueira ou cegueira noturna, irritação da garganta, sinusite, abscessos nos ouvidos e na boca, secura das pálpebras. É encontrada em alimentos como fígado, gema de ovo, leite, cenouras, batata doce, abóbora, damasco, melão, espinafres e brócolis.</string>
@@ -54,7 +59,8 @@
     <string name="textoVitE">Possui efeito antioxidante. Sua deficiência causa problemas neurológicos e anemia em bebês prematuros. É encontrada em óleos vegetais, cereais integrais, verduras de folha verde e nozes.</string>
     <string name="vitK">Vitamina K</string>
     <string name="textoVitK" >Ela contribui para a formação de fatores de coagulação e também auxilia a vitamina D a sintetizar algumas proteínas. É encontrada em alimentos como brócolis, couve de Bruxelas, repolho e espinafres. </string>
-    <string name="fonteVitamina"><a href="https://www.tuasaude.com/vitaminas/#:~:text=As%20vitaminas%20s%C3%A3o%20subst%C3%A2ncias%20org%C3%A2nicas,metabolismo%20e%20promover%20o%20crescimento">https://www.tuasaude.com/vitaminas</a></string>
+
+<!--Primeiros Socorros-->
     <string name="intoxicacaoMed">Intoxicação Medicamentosa</string>
     <string name="textoIntoxMed">Peça ajuda. Tente lembrar do que tomou, era líquido? capsula? Qual era a cor? Tinha Cheiro? Quantos você tomou?  Onde estava? Como era a caixa do remédio? Quem estiver ajudando deve ligar para CIAV (Centro de Informação Anti-Venenos)  pelo numero 800 250 250 e seguir as instruções de acordo."</string>
     <string name="hipoglicemia">Hipoglicemia</string>
@@ -63,23 +69,21 @@
     <string name="textoEscoriacao">São machucados mais superficiais, que irão se curar rápido. Peça ajuda. Aplique gelo protegido numa compressa ou pano; levante a lesão acima do coração por 10 a 15 minutos se for mais leve e 1 a 2 horas se for mais grave. Se a dor continuar  depois de um dia ou se não tiver melhora repetir o processo de gelo na compressa. Em casos mais graves é urgente ver um  médico.</string>
     <string name="queda">Queda</string>
     <string name="textoQueda">Peça ajuda. Diga onde doi, onde machucou, se está sangrando. Quem estiver ajudando deve seguir as seguintes instruções: 1. No caso de Equimoses aplicar frio (saco de gelo) para reduzir o edema, hemorragia e dor. 2. No caso de hematomas apliocar frio e imobilizar a área afetada para reduzir hemorragia. 3. No caso de Hemorragias externas tape o ferimento com um pano limbo ou compressa bem grossa, use compressa fria na  ligadura para reduzir o inchaço, comprima com firmeza a área por 10 minutos sem interrupção e imobilize a área deixando  elevada acima do coração</string>
+
+<!--Genéricos-->
     <string name="diferencaGenerico">Quais as diferenças entre Medicamentos Genéricos e Medicamentos de Referência?</string>
-    <string name="textodiferencaGenerico">O medicamento de referência é aquele que foi desenvolvido por um laboratório após anos de pesquisa e dinheiro investido. Para ter sua comercialização autorizada pelo órgão de vigilância de cada país, o laboratório precisa apresentar estudos clínicos comprovando a eficácia e a segurança do medicamento. Em geral, após um novo medicamento ser lançado no mercado, somente o laboratório criador tem o direito de comercialização. Essa exclusividade termina quando expira o prazo da patente, que dura de 10 a 20 anos na maioria dos casos. Depois desse tempo, outros laboratórios podem usar o mesmo princípio ativo e fazer cópias do medicamento de referência. Essas cópias são os medicamentos genéricos, que são mais baratos pois os laboratórios não tiveram que gastar tempo e dinheiro na descoberta e desenvolvimento do fármaco. O genérico é aquele com a tarja amarela e o G de genérico, e não tem nome de marca, ao contrário dos medicamentos de referência. Para garantir que a cópia possa ser usada no lugar do medicamento de referência, é preciso realizar alguns testes que comprovem essa intercambialidade. </string>
-    <string name="fonteGenerico"><a href="https://www.ufrgs.br/farmacologica/2019/06/21/qual-a-diferenca-entre-medicamentos-de-referencia-generico-e-similar">www.ufrgs.br/farmacologica/qual-a-diferenca-entre-medicamentos-de-referencia-generico-e-similar</a></string>
+    <string name="textodiferencaGenerico">O medicamento de referência é aquele que foi desenvolvido por um laboratório após anos de pesquisa e dinheiro investido. Para ter sua comercialização autorizada pelo órgão de vigilância de cada país, o laboratório precisa apresentar estudos clínicos comprovando a eficácia e a segurança do medicamento.\nEm geral, após um novo medicamento ser lançado no mercado, somente o laboratório criador tem o direito de comercialização. Essa exclusividade termina quando expira o prazo da patente, que dura de 10 a 20 anos na maioria dos casos. Depois desse tempo, outros laboratórios podem usar o mesmo princípio ativo e fazer cópias do medicamento de referência. Essas cópias são os medicamentos genéricos, que são mais baratos pois os laboratórios não tiveram que gastar tempo e dinheiro na descoberta e desenvolvimento do fármaco.\nO genérico é aquele com a tarja amarela e o G de genérico, e não tem nome de marca, ao contrário dos medicamentos de referência. Para garantir que a cópia possa ser usada no lugar do medicamento de referência, é preciso realizar alguns testes que comprovem essa intercambialidade. </string>
+
+<!--Descarte Correto-->
     <string name="descarteMed">Fazer o descarte de medicamentos vencidos ou de medicamentos que sobraram de algum tratamento feito jogando-os no lixo comum ou no esgoto doméstico não é uma boa solução. Isso porque os sistemas de tratamento de esgoto não conseguem eliminar algumas substâncias dos medicamentos, que acabam contaminando o meio ambiente, podendo, assim causar danos aos seres vivos que nele habitam. Restos de medicamentos sem o destino correto podem causar, por exemplo, o uso inadvertido por outras pessoas, resultando em reações adversas graves e intoxicações. </string>
-    <string name="fonteDescarte"><a href="https://www.pfizer.com.br/noticias/ultimas-noticias/descarte-correto-de-medicamentos-tambem-salva-vidas#:~:text=Restos%20de%20medicamentos%20sem%20o,do%20solo%20e%20dos%20animais">https://www.pfizer.com.br/descarte-correto-de-medicamentos</a></string>
-    <string name="fonteDescarte2"><a href="https://www.roche.com.br/pt/por-dentro-da-roche/descartes-de-medicamentos">www.roche.com.br/descartes-de-medicamentos</a></string>
     <string name="ondeDescartar">Onde descartar os medicamentos corretamente?</string>
     <string name="textoDescarte">Iniciativas voluntárias - em 2009 a Anvisa autorizou a participação de farmácias e drogarias em programas voluntários de descarte correto de medicamentos, assim como suas embalagens e de objetos perfurocortantes usados para ministrá-los. Verifique se as farmácias da sua região participam de alguma iniciativa e, caso positivo, peça orientação de como você deve proceder. Pontos de coleta - em algumas cidades, as Unidades Básicas de Saúde (UBS) recebem medicamentos para descarte. Verifique no site da prefeitura do seu município se há pontos de coleta, caso contrário, peça informações nas UBS locais para fazer um descarte seguro. Geralmente os resíduos de medicamentos, as embalagens e os objetos usados para ministrá-los têm como destino final a incineração ou são levados para aterros industriais, dependendo do procedimento adotado em cada município </string>
+
+<!--Sobre-->
     <string name="textoSobre">Elaborado em 2022, SOS Remédios é um aplicativo desenvolvido pela turma de Jogos Digitais da Unisagrado. Com o intuito de orientar o uso de medicamentos para terceira idade de uma maneira mais prática e simples, através das ferramentas Android Studio e Canva.  </string>
-    <string name="textoSobre2">Orientador: Prof. Me. Vinicius S. Andrade \n
-        Disciplina: Linguagem de Programação I \n \n
-        Criadores: \n
-        Flavia Marcilio \n
-        Keila Mayumi \n
-        Kimberly Lima \n
-        Yan Spetic</string>
-    <string name="linkBulario"><a href="https://consultas.anvisa.gov.br/#/bulario/">https://consultas.anvisa.gov.br/#/bulario/</a></string>
+    <string name="textoSobre2">Orientador: Prof. Me. Vinicius S. Andrade\nDisciplina: Linguagem de Programação I\n\nCriadores:\nFlavia Marcilio\nKeila Mayumi\nKimberly Lima\nYan Spetic</string>
+
+<!--Bulário-->
     <string name="textoBula">O objetivo do Bulário Eletrônico é facilitar o acesso rápido e gratuito pela população e profissional de saúde às bases de dados das bulas de medicamentos. O Bulário Eletrônico disponibiliza também conteúdo para educação em saúde, legislação específica sobre o assunto e endereços eletrônicos de interesse na área de saúde. Atra</string>
     <string name="comoUtilizar">Como Utilizar</string>
     <string name="textoComoUtilizar">Para pesquisar o medicamento desejado, digite o nome do medicamento (também conhecido como nome comercial ou nome de marca) que pode ser encontrado na embalagem.</string>
@@ -87,6 +91,18 @@
     <string name="textoComoUtilizar3">Depois, digite o nome da empresa que registrou o medicamento (que pode ser encontrado na embalagem) e clique em Pesquisar. Depois, é só selecionar a empresa desejada.</string>
     <string name="textoComoUtilizar4">Depois de selecionar o nome do medicamento ou o nome da empresa fabricante, basta clicar em "Consultar" para realizar a pesquisa.</string>
     <string name="textoLink">Para acessar a ferramenta, basta utilizar o link abaixo.</string>
+
+<!--Links-->
+    <string name="fonteInfo"><a href="https://www.sindern.com.br/cuidados-basicos-para-a-boa-saude-e-qualidade-de-vida">https://www.sindern.com.br/cuidados-basicos</a></string>
+    <string name="fontePressaoAlta"><a href="https://eurofarma.com.br/artigos/sintomas-da-pressao-alta#:~:text=Os%20sintomas%20da%20hipertens%C3%A3o%20costumam,emba%C3%A7ada%20e%20sangramento%20nasal%C2%B9">https://eurofarma.com.br/sintomas-da-pressao-alta</a></string>
+    <string name="textoFonte"><a href="https://bvsms.saude.gov.br/diabetes/">https://bvsms.saude.gov.br/diabetes</a></string>
+    <string name="fontesAnti"><a href="https://drauziovarella.uol.com.br/infograficos/principais-diferencas-entre-analgesicos-e-anti-inflamatorios-infografico/">https://drauziovarella.uol.com.br/diferencas-entre-analgesicos-e-anti-inflamatorios/</a></string>
+    <string name="fontesAnti2"><a href="https://www.strepsils.com.br/dicas-strepsils-blog/analgeacutesico-e-anti-inflamatoacuterio-afinal-qual-eacute-a-diferenccedila/#:~:text=Qual%20%C3%A9%20a%20diferen%C3%A7a%20entre,a%20dor%20causada%20por%20ela">https://www.strepsils.com.br/analgesico-e-anti-inflamatorio-qual-e-a-diferenca</a></string>
+    <string name="fonteVitamina"><a href="https://www.tuasaude.com/vitaminas/#:~:text=As%20vitaminas%20s%C3%A3o%20subst%C3%A2ncias%20org%C3%A2nicas,metabolismo%20e%20promover%20o%20crescimento">https://www.tuasaude.com/vitaminas</a></string>
+    <string name="fonteGenerico"><a href="https://www.ufrgs.br/farmacologica/2019/06/21/qual-a-diferenca-entre-medicamentos-de-referencia-generico-e-similar">www.ufrgs.br/qual-a-diferenca-entre-medicamentos-de-referencia-generico-e-similar</a></string>
+    <string name="fonteDescarte"><a href="https://www.pfizer.com.br/noticias/ultimas-noticias/descarte-correto-de-medicamentos-tambem-salva-vidas#:~:text=Restos%20de%20medicamentos%20sem%20o,do%20solo%20e%20dos%20animais">https://www.pfizer.com.br/descarte-correto-de-medicamentos</a></string>
+    <string name="fonteDescarte2"><a href="https://www.roche.com.br/pt/por-dentro-da-roche/descartes-de-medicamentos">www.roche.com.br/descartes-de-medicamentos</a></string>
+    <string name="linkBulario"><a href="https://consultas.anvisa.gov.br/#/bulario/">https://consultas.anvisa.gov.br/bulario/</a></string>
     <string name="fontePrimeirosSocorros"><a href="https://www.flba.pt/ficheiros/cd/FLBA.114.01%20-%20Manual%20de%20Primeiros%20Socorros%20-%20Idosos.pdf">https://www.flba.pt/Manual-de-Primeiros-Socorros</a></string>
 
 </resources>

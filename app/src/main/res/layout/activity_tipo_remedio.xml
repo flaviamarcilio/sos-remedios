@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".TipoRemedio"
-    android:background="#40E0D0">
+    android:background="#21B1B2">
 
     <Button
         android:id="@+id/pressao_alta"
@@ -19,6 +19,8 @@
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         android:width="250dp"
+        android:height="60dp"
+        android:textSize="16sp"
         android:backgroundTint="#B22222"
         android:textColor="#FFFFFFFF"/>
 
@@ -33,6 +35,8 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         android:width="250dp"
+        android:height="60dp"
+        android:textSize="16sp"
         android:backgroundTint="#B22222"
         android:textColor="#FFFFFFFF"/>
 
@@ -48,6 +52,8 @@
         app:layout_constraintHorizontal_bias="0.494"
         app:layout_constraintStart_toStartOf="parent"
         android:width="250dp"
+        android:height="60dp"
+        android:textSize="16sp"
         android:backgroundTint="#B22222"
         android:textColor="#FFFFFFFF"/>
 
@@ -62,6 +68,8 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         android:width="250dp"
+        android:height="60dp"
+        android:textSize="16sp"
         android:backgroundTint="#B22222"
         android:textColor="#FFFFFFFF"/>
 
@@ -69,26 +77,31 @@
         android:id="@+id/primeiros_socorros"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="90dp"
+        android:layout_marginBottom="80dp"
+        android:width="250dp"
+        android:height="60dp"
+        android:textSize="16sp"
+        android:backgroundTint="#B22222"
         android:onClick="primeirosSocorros"
         android:text="@string/primeirosSocorros"
+        android:textColor="#FFFFFFFF"
         app:layout_constraintBottom_toTopOf="@+id/voltar"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        android:width="250dp"
-        android:backgroundTint="#B22222"
-        android:textColor="#FFFFFFFF"/>
+        app:layout_constraintHorizontal_bias="0.503"
+        app:layout_constraintStart_toStartOf="parent" />
 
     <Button
         android:id="@+id/voltar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="30dp"
+        android:layout_marginBottom="40dp"
+        android:height="60dp"
+        android:textSize="16sp"
+        android:backgroundTint="#B22222"
         android:onClick="telaInicial"
         android:text="@string/voltar"
+        android:textColor="#FFFFFFFF"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        android:backgroundTint="#B22222"
-        android:textColor="#FFFFFFFF"/>
+        app:layout_constraintStart_toStartOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>

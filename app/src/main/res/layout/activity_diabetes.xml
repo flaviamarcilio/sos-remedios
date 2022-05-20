@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".Diabetes"
-    android:background="#40E0D0">
+    android:background="#21B1B2">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -21,6 +21,7 @@
             android:layout_marginTop="20dp"
             android:justificationMode="inter_word"
             android:textColor="#FF000000"
+            android:textSize="20sp"
             android:text="@string/textoDiabetes"/>
 
         <TextView
@@ -31,7 +32,7 @@
             android:layout_marginTop="20dp"
             android:text="@string/tipoUm"
             android:textColor="#FF000000"
-            android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+            android:textSize="30sp"/>
 
         <TextView
             android:id="@+id/textView3"
@@ -42,6 +43,7 @@
             android:layout_marginTop="20dp"
             android:justificationMode="inter_word"
             android:textColor="#FF000000"
+            android:textSize="20sp"
             android:text="@string/textoTipoUm"/>
 
         <TextView
@@ -52,7 +54,7 @@
             android:layout_marginTop="20dp"
             android:text="@string/tipoDois"
             android:textColor="#FF000000"
-            android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+            android:textSize="30sp"/>
 
         <TextView
             android:id="@+id/textView5"
@@ -63,6 +65,7 @@
             android:layout_marginTop="20dp"
             android:justificationMode="inter_word"
             android:textColor="#FF000000"
+            android:textSize="20sp"
             android:text="@string/textoTipoDois"/>
 
         <TextView
@@ -72,13 +75,17 @@
             android:layout_marginStart="20dp"
             android:layout_marginTop="30dp"
             android:text="@string/textoFonte"
-            android:textColorLink="#F8F8FF"/>
+            android:textColorLink="#0000FF"
+            android:textSize="20sp"/>
 
         <Button
             android:id="@+id/voltar_tipo_remedio3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="30dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="40dp"
+            android:height="60dp"
+            android:textSize="16sp"
             android:onClick="voltaTipoRemedio"
             android:text="@string/voltar"
             tools:ignore="OnClick,UsingOnClickInXml"

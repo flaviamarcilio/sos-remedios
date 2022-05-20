@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".CuidadosGerais"
-    android:background="#40E0D0">
+    android:background="#21B1B2">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -20,7 +20,7 @@
             android:layout_marginTop="10dp"
             android:text="@string/agua"
             android:textColor="#FF000000"
-            android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+            android:textSize="30sp"/>
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -41,6 +41,7 @@
                 android:layout_marginEnd="20dp"
                 android:justificationMode="inter_word"
                 android:textColor="#FF000000"
+                android:textSize="20sp"
                 android:text="@string/textoAgua" />
         </LinearLayout>
 
@@ -52,6 +53,7 @@
             android:layout_marginTop="10dp"
             android:text="@string/atividadeFisica"
             android:textColor="#FF000000"
+            android:textSize="30sp"
             android:textAppearance="@style/TextAppearance.AppCompat.Large" />
 
         <LinearLayout
@@ -66,6 +68,7 @@
                 android:layout_marginStart="20dp"
                 android:justificationMode="inter_word"
                 android:textColor="#FF000000"
+                android:textSize="20sp"
                 android:text="@string/textoAtFis" />
 
             <ImageView
@@ -83,7 +86,7 @@
             android:layout_marginTop="10dp"
             android:text="@string/alimento"
             android:textColor="#FF000000"
-            android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+            android:textSize="30sp"/>
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -104,6 +107,7 @@
                 android:layout_marginEnd="20dp"
                 android:justificationMode="inter_word"
                 android:textColor="#FF000000"
+                android:textSize="20sp"
                 android:text="@string/textoAlimento" />
         </LinearLayout>
 
@@ -115,7 +119,7 @@
             android:layout_marginTop="10dp"
             android:text="@string/descanse"
             android:textColor="#FF000000"
-            android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+            android:textSize="30sp"/>
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -129,6 +133,7 @@
                 android:layout_marginStart="20dp"
                 android:justificationMode="inter_word"
                 android:textColor="#FF000000"
+                android:textSize="20sp"
                 android:text="@string/textoDescanso" />
 
             <ImageView
@@ -146,7 +151,7 @@
             android:layout_marginTop="10dp"
             android:text="@string/examesRotina"
             android:textColor="#FF000000"
-            android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+            android:textSize="30sp"/>
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -161,12 +166,13 @@
 
             <TextView
                 android:id="@+id/textView10"
-                android:layout_width="250dp"
+                android:layout_width="240dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="20dp"
                 android:layout_marginEnd="20dp"
                 android:justificationMode="inter_word"
                 android:textColor="#FF000000"
+                android:textSize="20sp"
                 android:text="@string/textoExames" />
         </LinearLayout>
 
@@ -178,7 +184,8 @@
             android:layout_marginEnd="20dp"
             android:layout_marginTop="20dp"
             android:text="@string/fonteInfo"
-            android:textColorLink="#F8F8FF"/>
+            android:textColorLink="#0000FF"
+            android:textSize="20sp"/>
 
         <Button
             android:id="@+id/button4"
@@ -186,7 +193,10 @@
             android:layout_height="wrap_content"
             android:onClick="voltarInfo"
             android:text="@string/voltar"
-            android:layout_marginBottom="30dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="40dp"
+            android:height="60dp"
+            android:textSize="16sp"
             android:layout_gravity="center_horizontal"
             android:backgroundTint="#B22222"
             android:textColor="#FFFFFFFF"/>

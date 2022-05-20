@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".Analgesicos"
-    android:background="#40E0D0">
+    android:background="#21B1B2">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -17,12 +17,13 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginStart="20dp"
-            android:layout_marginEnd="20dp"
             android:layout_marginTop="20dp"
+            android:layout_marginEnd="20dp"
             android:justificationMode="inter_word"
             android:text="@string/principaisDiferencas"
             android:textColor="#FF000000"
-            app:autoSizeTextType="uniform"/>
+            android:textSize="20sp"
+            app:autoSizeTextType="uniform" />
 
         <TextView
             android:id="@+id/textView2"
@@ -33,6 +34,7 @@
             android:justificationMode="inter_word"
             android:text="@string/tipoAnalgesico"
             android:textColor="#FF000000"
+            android:textSize="30sp"
             android:textAppearance="@style/TextAppearance.AppCompat.Large" />
 
         <TextView
@@ -44,6 +46,7 @@
             android:layout_marginTop="20dp"
             android:justificationMode="inter_word"
             android:textColor="#FF000000"
+            android:textSize="20sp"
             android:text="@string/textoAnalgesico"/>
 
         <TextView
@@ -54,7 +57,7 @@
             android:layout_marginTop="20dp"
             android:text="@string/tipoAnti"
             android:textColor="#FF000000"
-            android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+            android:textSize="30sp"/>
 
         <TextView
             android:id="@+id/textView5"
@@ -65,6 +68,7 @@
             android:layout_marginTop="20dp"
             android:justificationMode="inter_word"
             android:textColor="#FF000000"
+            android:textSize="20sp"
             android:text="@string/textoAnti"/>
 
         <TextView
@@ -75,7 +79,8 @@
             android:layout_marginEnd="20dp"
             android:layout_marginTop="20dp"
             android:text="@string/fontesAnti"
-            android:textColorLink="#F8F8FF"/>
+            android:textColorLink="#0000FF"
+            android:textSize="20sp"/>
 
         <TextView
             android:id="@+id/textFonteAnti2"
@@ -86,19 +91,23 @@
             android:layout_marginTop="20dp"
             android:justificationMode="inter_word"
             android:text="@string/fontesAnti2"
-            android:textColorLink="#F8F8FF"/>
+            android:textColorLink="#0000FF"
+            android:textSize="20sp"/>
 
         <Button
             android:id="@+id/voltar_tipo_remedio2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="56dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="40dp"
             android:onClick="voltaTipoRemedio"
             android:text="@string/voltar"
             android:layout_gravity="center_horizontal"
             tools:ignore="OnClick"
             android:backgroundTint="#B22222"
-            android:textColor="#FFFFFFFF"/>
+            android:textColor="#FFFFFFFF"
+            android:textSize="16sp"
+            android:height="60dp"/>
 
     </LinearLayout>
 

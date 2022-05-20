@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".BularioEletronico"
-    android:background="#40E0D0">
+    android:background="#21B1B2">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -21,6 +21,7 @@
             android:layout_marginTop="10dp"
             android:justificationMode="inter_word"
             android:textColor="#FF000000"
+            android:textSize="20sp"
             android:text="@string/textoBula"/>
 
         <TextView
@@ -31,7 +32,7 @@
             android:layout_marginTop="20dp"
             android:text="@string/comoUtilizar"
             android:textColor="#FF000000"
-            android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+            android:textSize="30sp"/>
 
         <TextView
             android:id="@+id/textView17"
@@ -42,6 +43,7 @@
             android:layout_marginTop="10dp"
             android:justificationMode="inter_word"
             android:textColor="#FF000000"
+            android:textSize="20sp"
             android:text="@string/textoComoUtilizar"/>
 
         <ImageView
@@ -59,6 +61,7 @@
             android:layout_marginTop="10dp"
             android:justificationMode="inter_word"
             android:textColor="#FF000000"
+            android:textSize="20sp"
             android:text="@string/textoComoUtilizar2"/>
 
         <ImageView
@@ -76,12 +79,14 @@
             android:layout_marginTop="10dp"
             android:justificationMode="inter_word"
             android:textColor="#FF000000"
+            android:textSize="20sp"
             android:text="@string/textoComoUtilizar3"/>
 
         <ImageView
             android:layout_width="370dp"
             android:layout_height="250dp"
             android:layout_gravity="center"
+            android:layout_marginTop="10dp"
             android:src="@drawable/empresadois"/>
 
         <TextView
@@ -93,6 +98,7 @@
             android:layout_marginTop="10dp"
             android:justificationMode="inter_word"
             android:textColor="#FF000000"
+            android:textSize="20sp"
             android:text="@string/textoComoUtilizar4"/>
 
         <ImageView
@@ -110,33 +116,31 @@
             android:layout_marginTop="10dp"
             android:justificationMode="inter_word"
             android:textColor="#FF000000"
+            android:textSize="20sp"
             android:text="@string/textoLink"/>
 
         <TextView
             android:id="@+id/textView13"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginStart="20dp"
             android:layout_marginTop="30dp"
             android:gravity="center"
             android:text="@string/linkBulario"
-            android:textColorLink="#F8F8FF"/>
+            android:textColorLink="#0000FF"
+            android:textSize="20sp"/>
 
         <Button
             android:id="@+id/button2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
-            android:layout_marginTop="30dp"
-            android:layout_marginBottom="30dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="40dp"
+            android:height="60dp"
+            android:textSize="16sp"
             android:text="@string/voltar"
             android:onClick="voltarInfo"
             android:backgroundTint="#B22222"
             android:textColor="#FFFFFFFF"/>
-
-
     </LinearLayout>
-
-
-
 </ScrollView>
