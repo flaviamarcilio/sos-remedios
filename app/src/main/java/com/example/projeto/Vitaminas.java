@@ -17,8 +17,6 @@ public class Vitaminas extends AppCompatActivity {
         setTitle("Vitaminas");
 
         TextView linkVitamina = findViewById(R.id.textLinkVitamina);
-
-        // method to redirect to provided link
         linkVitamina.setMovementMethod(LinkMovementMethod.getInstance());
     }
 

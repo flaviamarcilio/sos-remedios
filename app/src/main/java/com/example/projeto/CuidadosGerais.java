@@ -17,8 +17,6 @@ public class CuidadosGerais extends AppCompatActivity {
         setTitle("Cuidados Gerais");
 
         TextView linkCuidados = findViewById(R.id.textView11);
-
-        // method to redirect to provided link
         linkCuidados.setMovementMethod(LinkMovementMethod.getInstance());
     }
 

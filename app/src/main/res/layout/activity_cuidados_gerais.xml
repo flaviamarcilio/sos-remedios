@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -12,169 +11,181 @@
         android:layout_height="wrap_content"
         android:orientation="vertical">
 
-        <TextView
-            android:id="@+id/textView5"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="20dp"
-            android:layout_marginTop="10dp"
-            android:text="@string/agua"
-            android:textColor="#FF000000"
-            android:textSize="30sp"/>
-
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="horizontal"
-            android:layout_marginTop="10dp">
-            <ImageView
-                android:layout_width="100dp"
-                android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="170dp"
+                android:layout_height="wrap_content"
                 android:layout_marginStart="20dp"
+                android:layout_gravity="center_vertical"
+                android:text="@string/agua"
+                android:textColor="#FF000000"
+                android:textSize="30sp"/>
+
+            <ImageView
+                android:layout_width="180dp"
+                android:layout_height="180dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
                 android:src="@drawable/agua"/>
 
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:justificationMode="inter_word"
+            android:textColor="#FF000000"
+            android:textSize="20sp"
+            android:text="@string/textoAgua" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp">
+
             <TextView
-                android:id="@+id/textView4"
-                android:layout_width="match_parent"
+                android:id="@+id/textView2"
+                android:layout_width="170dp"
                 android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_gravity="center_vertical"
+                android:text="@string/atividadeFisica"
+                android:textColor="#FF000000"
+                android:textSize="30sp"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+            <ImageView
+                android:layout_width="180dp"
+                android:layout_height="180dp"
                 android:layout_marginStart="20dp"
                 android:layout_marginEnd="20dp"
-                android:justificationMode="inter_word"
-                android:textColor="#FF000000"
-                android:textSize="20sp"
-                android:text="@string/textoAgua" />
+                android:src="@drawable/exercicio"/>
         </LinearLayout>
 
         <TextView
-            android:id="@+id/textView2"
+            android:id="@+id/textView"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginStart="20dp"
-            android:layout_marginTop="10dp"
-            android:text="@string/atividadeFisica"
+            android:layout_marginEnd="20dp"
+            android:justificationMode="inter_word"
             android:textColor="#FF000000"
-            android:textSize="30sp"
-            android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+            android:textSize="20sp"
+            android:text="@string/textoAtFis" />
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
             android:layout_marginTop="10dp">
+
             <TextView
-                android:id="@+id/textView"
-                android:layout_width="240dp"
+                android:id="@+id/textView6"
+                android:layout_width="170dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="20dp"
-                android:justificationMode="inter_word"
+                android:layout_gravity="center_vertical"
+                android:text="@string/alimento"
                 android:textColor="#FF000000"
-                android:textSize="20sp"
-                android:text="@string/textoAtFis" />
+                android:textSize="30sp"/>
 
             <ImageView
-                android:layout_width="100dp"
-                android:layout_height="match_parent"
-                android:layout_marginStart="20dp"
-                android:src="@drawable/atividadefisica"/>
-        </LinearLayout>
-
-        <TextView
-            android:id="@+id/textView6"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="20dp"
-            android:layout_marginTop="10dp"
-            android:text="@string/alimento"
-            android:textColor="#FF000000"
-            android:textSize="30sp"/>
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal"
-            android:layout_marginTop="10dp">
-            <ImageView
-                android:layout_width="100dp"
-                android:layout_height="match_parent"
-                android:layout_marginStart="20dp"
-                android:src="@drawable/atividadefisica"/>
-
-            <TextView
-                android:id="@+id/textView3"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_width="180dp"
+                android:layout_height="180dp"
                 android:layout_marginStart="20dp"
                 android:layout_marginEnd="20dp"
-                android:justificationMode="inter_word"
-                android:textColor="#FF000000"
-                android:textSize="20sp"
-                android:text="@string/textoAlimento" />
+                android:src="@drawable/comida"/>
         </LinearLayout>
 
         <TextView
-            android:id="@+id/textView7"
+            android:id="@+id/textView3"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginStart="20dp"
-            android:layout_marginTop="10dp"
-            android:text="@string/descanse"
+            android:layout_marginEnd="20dp"
+            android:justificationMode="inter_word"
             android:textColor="#FF000000"
-            android:textSize="30sp"/>
+            android:textSize="20sp"
+            android:text="@string/textoAlimento" />
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
             android:layout_marginTop="10dp">
+
             <TextView
-                android:id="@+id/textView8"
-                android:layout_width="240dp"
+                android:id="@+id/textView7"
+                android:layout_width="170dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="20dp"
-                android:justificationMode="inter_word"
+                android:layout_gravity="center_vertical"
+                android:text="@string/descanse"
                 android:textColor="#FF000000"
-                android:textSize="20sp"
-                android:text="@string/textoDescanso" />
+                android:textSize="30sp"/>
 
             <ImageView
-                android:layout_width="100dp"
-                android:layout_height="match_parent"
-                android:layout_marginStart="20dp"
-                android:src="@drawable/atividadefisica"/>
-        </LinearLayout>
-
-        <TextView
-            android:id="@+id/textView9"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="20dp"
-            android:layout_marginTop="10dp"
-            android:text="@string/examesRotina"
-            android:textColor="#FF000000"
-            android:textSize="30sp"/>
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal"
-            android:layout_marginTop="10dp">
-            <ImageView
-                android:layout_width="100dp"
-                android:layout_height="match_parent"
-                android:layout_marginStart="20dp"
-                android:src="@drawable/atividadefisica"/>
-
-            <TextView
-                android:id="@+id/textView10"
-                android:layout_width="240dp"
-                android:layout_height="wrap_content"
+                android:layout_width="180dp"
+                android:layout_height="180dp"
                 android:layout_marginStart="20dp"
                 android:layout_marginEnd="20dp"
-                android:justificationMode="inter_word"
-                android:textColor="#FF000000"
-                android:textSize="20sp"
-                android:text="@string/textoExames" />
+                android:src="@drawable/descanso"/>
         </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:justificationMode="inter_word"
+            android:textColor="#FF000000"
+            android:textSize="20sp"
+            android:text="@string/textoDescanso" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp">
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="170dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_gravity="center_vertical"
+                android:text="@string/examesRotina"
+                android:textColor="#FF000000"
+                android:textSize="30sp"/>
+
+            <ImageView
+                android:layout_width="180dp"
+                android:layout_height="180dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:src="@drawable/exame"/>
+            </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:justificationMode="inter_word"
+            android:textColor="#FF000000"
+            android:textSize="20sp"
+            android:text="@string/textoExames" />
 
         <TextView
             android:id="@+id/textView11"
@@ -193,7 +204,7 @@
             android:layout_height="wrap_content"
             android:onClick="voltarInfo"
             android:text="@string/voltar"
-            android:layout_marginTop="20dp"
+            android:layout_marginTop="40dp"
             android:layout_marginBottom="40dp"
             android:height="60dp"
             android:textSize="16sp"
@@ -201,11 +212,6 @@
             android:backgroundTint="#B22222"
             android:textColor="#FFFFFFFF"/>
 
-
-
     </LinearLayout>
-
-
-
 
 </ScrollView>

@@ -3,19 +3,21 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/mozao/AndroidStudioProjects/Projeto/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.178" />
+        <entry key="..\:/Users/mozao/AndroidStudioProjects/Projeto/app/src/main/res/drawable/ic_launcher_background.xml" value="0.178" />
         <entry key="..\:/Users/mozao/AndroidStudioProjects/Projeto/app/src/main/res/layout/activity_analgesicos.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/mozao/AndroidStudioProjects/Projeto/app/src/main/res/layout/activity_bulario_eletronico.xml" value="0.36666666666666664" />
-        <entry key="..\:/Users/mozao/AndroidStudioProjects/Projeto/app/src/main/res/layout/activity_cuidados_gerais.xml" value="0.29767441860465116" />
-        <entry key="..\:/Users/mozao/AndroidStudioProjects/Projeto/app/src/main/res/layout/activity_descarte_med.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/mozao/AndroidStudioProjects/Projeto/app/src/main/res/layout/activity_cuidados_gerais.xml" value="0.264" />
+        <entry key="..\:/Users/mozao/AndroidStudioProjects/Projeto/app/src/main/res/layout/activity_descarte_med.xml" value="0.2364467668190725" />
         <entry key="..\:/Users/mozao/AndroidStudioProjects/Projeto/app/src/main/res/layout/activity_diabetes.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/mozao/AndroidStudioProjects/Projeto/app/src/main/res/layout/activity_info_geral.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/mozao/AndroidStudioProjects/Projeto/app/src/main/res/layout/activity_informacoes.xml" value="0.36666666666666664" />
-        <entry key="..\:/Users/mozao/AndroidStudioProjects/Projeto/app/src/main/res/layout/activity_main.xml" value="0.4" />
+        <entry key="..\:/Users/mozao/AndroidStudioProjects/Projeto/app/src/main/res/layout/activity_main.xml" value="0.536" />
         <entry key="..\:/Users/mozao/AndroidStudioProjects/Projeto/app/src/main/res/layout/activity_med_genericos.xml" value="0.35007458975634015" />
         <entry key="..\:/Users/mozao/AndroidStudioProjects/Projeto/app/src/main/res/layout/activity_pressao_alta.xml" value="0.391705069124424" />
         <entry key="..\:/Users/mozao/AndroidStudioProjects/Projeto/app/src/main/res/layout/activity_primeiros_socorros.xml" value="0.36666666666666664" />
-        <entry key="..\:/Users/mozao/AndroidStudioProjects/Projeto/app/src/main/res/layout/activity_sobre.xml" value="0.264" />
-        <entry key="..\:/Users/mozao/AndroidStudioProjects/Projeto/app/src/main/res/layout/activity_tipo_remedio.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/mozao/AndroidStudioProjects/Projeto/app/src/main/res/layout/activity_sobre.xml" value="0.4" />
+        <entry key="..\:/Users/mozao/AndroidStudioProjects/Projeto/app/src/main/res/layout/activity_tipo_remedio.xml" value="0.4" />
         <entry key="..\:/Users/mozao/AndroidStudioProjects/Projeto/app/src/main/res/layout/activity_vitaminas.xml" value="0.3405902273826802" />
         <entry key="..\:/Users/mozao/AndroidStudioProjects/Projeto/app/src/main/res/layout/diabetes.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/mozao/AndroidStudioProjects/Projeto/app/src/main/res/layout/info_geral.xml" value="0.36666666666666664" />

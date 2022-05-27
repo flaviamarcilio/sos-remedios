@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Projeto</string>
+    <string name="app_name">SOSRemedios</string>
     <string name="voltar">voltar</string>
     <string name="pressãoAlta">Pressão Alta</string>
     <string name="diabetes">Diabetes</string>
@@ -15,11 +15,11 @@
 
 <!--Cuidados Gerais-->
     <string name="alimento">Alimente-se bem</string>
-    <string name="textoAlimento">Comer é fundamental para manter a energia e saúde do corpo, no entanto, a ingestão de bons alimentos faz toda a diferença. O consumo diário desses alimentos atuam de forma importante para manter o bom funcionamento do organismo. As verduras, os legumes, os grãos, as proteínas e as frutas também devem fazer parte das refeições. Consumir moderadamente todos os alimentos pode fazer a diferença entre ter uma vida saudável ou não.</string>
-    <string name="agua">Beba Água </string>
-    <string name="textoAgua">A água faz muito bem ao organismo, ela atua em todas as funções do corpo (circulação, digestão, excreção) e além de hidratá-lo permite também que a temperatura seja mantida. É fundamental que adultos bebam pelo menos 2 litros da água por dia para garantir um bom funcionamento de seu organismo.</string>
+    <string name="textoAlimento">Comer é fundamental para manter a energia e saúde do corpo, e a ingestão de bons alimentos faz toda a diferença. O consumo diário desses alimentos atua de forma importante para manter o bom funcionamento do organismo. As verduras, os legumes, os grãos, as proteínas e as frutas devem fazer parte das refeições. Consumir moderadamente todos os alimentos pode fazer a diferença entre ter uma vida saudável ou não.</string>
+    <string name="agua">Beba \nÁgua </string>
+    <string name="textoAgua">A água faz muito bem ao organismo, atuando em todas as funções do corpo (circulação, digestão, excreção) e, além de hidratá-lo, permite também que a temperatura corporal seja mantida. É fundamental que adultos bebam pelo menos 2 litros da água por dia para garantir um bom funcionamento de seu organismo.</string>
     <string name="atividadeFisica">Pratique Atividades Físicas</string>
-    <string name="textoAtFis">É preciso incluir os exercícios físicos nos hábitos diários de saúde, mesmo que você não goste muito de praticá-los. Encontre uma prática que mais lhe agrada e faça isso pensando em sua saúde e bem-estar ao longo dos próximos anos. Procure auxílio de especialistas antes de praticar exercícios, desta forma você estará amparado por profissionais que lhe indicarão como começar e quais os exercícios que serão mais indicados para você. </string>
+    <string name="textoAtFis">É preciso incluir os exercícios físicos nos hábitos diários, mesmo que você não goste de praticá-los. Encontre uma prática que mais lhe agrada e faça isso pensando em sua saúde e bem-estar. Procure auxílio de especialistas antes de praticar exercícios, assim você estará amparado por profissionais que lhe indicarão como começar e quais os exercícios que serão mais indicados para você.</string>
     <string name="descanse">Descanse</string>
     <string name="textoDescanso">"Ter momentos de relaxamento e um bom período de sono também auxilia no bom andamento da saúde, por isso, planeje tempo para eles e procure respeitar o seu tempo de sono para garantir boas horas de descanso. Separe pelo menos algum momento na semana para momentos de lazer, afinal, eles são importantes para manter sua mente longe do stress diário e lhe darão mais ânimo para enfrentar uma nova jornada. "</string>
     <string name="examesRotina">Realize exames de rotina</string>

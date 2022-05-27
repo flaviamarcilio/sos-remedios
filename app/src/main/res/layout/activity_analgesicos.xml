@@ -34,8 +34,7 @@
             android:justificationMode="inter_word"
             android:text="@string/tipoAnalgesico"
             android:textColor="#FF000000"
-            android:textSize="30sp"
-            android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+            android:textSize="30sp"/>
 
         <TextView
             android:id="@+id/textView3"
@@ -98,7 +97,7 @@
             android:id="@+id/voltar_tipo_remedio2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="20dp"
+            android:layout_marginTop="40dp"
             android:layout_marginBottom="40dp"
             android:onClick="voltaTipoRemedio"
             android:text="@string/voltar"
@@ -110,6 +109,5 @@
             android:height="60dp"/>
 
     </LinearLayout>
-
 
 </ScrollView>

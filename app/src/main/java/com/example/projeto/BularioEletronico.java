@@ -17,8 +17,6 @@ public class BularioEletronico extends AppCompatActivity {
         setTitle("Bulário Eletrônico");
 
         TextView linkBulario = findViewById(R.id.textView13);
-
-        // method to redirect to provided link
         linkBulario.setMovementMethod(LinkMovementMethod.getInstance());
     }
 

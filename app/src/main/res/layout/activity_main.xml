@@ -9,15 +9,15 @@
 
 
     <ImageView
-        android:layout_width="300dp"
+        android:layout_width="250dp"
         android:layout_height="200dp"
         android:src="@drawable/logo"
+        app:layout_constraintBottom_toTopOf="@+id/botao_tipo_remedio"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteY="48dp">
-    </ImageView>
+        app:layout_constraintTop_toTopOf="parent">
+        </ImageView>
 
     <Button
         android:id="@+id/botao_tipo_remedio"
@@ -33,7 +33,6 @@
         android:textColor="#FFFFFFFF"
         app:layout_constraintBottom_toTopOf="@+id/button6"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         tools:ignore="OnClick" />
 
@@ -51,7 +50,6 @@
         android:textColor="#FFFFFFFF"
         app:layout_constraintBottom_toTopOf="@+id/botao_sobre"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent" />
 
     <Button
@@ -68,7 +66,6 @@
         android:textColor="#FFFFFFFF"
         app:layout_constraintBottom_toTopOf="@+id/botao_sair"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         tools:ignore="OnClick" />
 
@@ -86,7 +83,6 @@
         android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         tools:ignore="OnClick" />
 
